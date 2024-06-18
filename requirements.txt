@@ -8,3 +8,5 @@ gunicorn == 19.9.0
 protobuf == 3.18.3
 requests == 2.22.0
 supervisor == 4.1.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
